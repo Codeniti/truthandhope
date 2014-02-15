@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Example of Twitter Bootstrap 3 Horizontal Form Layout</title>
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="../eternicode-bootstrap-datepicker/css/datepicker3.css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+		<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../eternicode-bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script type="text/javascript" src="../public/js/form4.js"></script>
+		<style type="text/css">
+			body {
+				background-image: url("Hackathon_2.jpg");
+				background-size: cover;
+				color: white;
+			}
+			.general {
+				padding: 20px 300px;
+			}
+			.form-horizontal .control-label {
+				text-align: left;
+			}
+
+			.btn-group {
+				margin-left: 15px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="general">
+			<img src="APPFORM.jpg" height="20%">
+			<br/>
+			<br/>	
+		    <form class="form-horizontal" role="form" action="form4.html">
+
+		        <div class="form-group">
+		            <label for="inputEmail" class="control-label col-sm-5">Email</label>
+		            <div class="col-sm-4">
+		                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+		            </div>
+		        </div>
+
+		        <div class="form-group">
+		            <label for="inputFirst" class="control-label col-sm-5">First Name</label>
+		            <div class="col-sm-4">
+		                <input type="text" class="form-control" id="inputFirst" placeholder="First Name">
+		            </div>
+		        </div>
+
+		 		<div class="form-group">
+		            <label for="inputLast" class="control-label col-sm-5">Last Name</label>
+		            <div class="col-sm-4">
+		                <input type="text" class="form-control" id="inputLast" placeholder="Last Name">
+		            </div>
+		        </div>
+
+				<div class="form-group">
+		            <label for="inputAdd" class="control-label col-sm-5">Address</label>
+		            <div class="col-sm-4">
+		                <textarea class="form-control" id="inputAdd" rows="3" placeholder="Address"></textarea>
+		            </div>
+		        </div>
+
+				<div class="form-group">
+		            <label for="inputCountry" class="control-label col-sm-5">Country</label>
+		            <div class="col-sm-4">
+		            <!--look here-->
+		            <select>
+		          		<option>India </option>
+		      			<option>others</option>
+		          	</select>
+		            </div>
+		        </div>
+
+		 		<div class="form-group">
+		            <label for="inputPin" class="control-label col-sm-5">Pin</label>
+		            <div class="col-sm-4">
+		                <input type="text" class="form-control"  placeholder="Pin code">
+		            </div>
+		        </div>
+
+				<div class="form-group">
+		            <label for="inputCity" class="control-label col-sm-5">City</label>
+		            <div class="col-sm-4">
+		                <input type="text"  class="form-control"  placeholder="City">
+		            </div>
+		        </div>
+
+				<div class="form-group">
+		            <label for="inputcity" class="control-label col-sm-5">Do you wish to receive all the correspondence till July 2014 on your permanent address?</label>
+		            <div class="col-sm-4">
+		            <div class="btn-group" data-toggle="buttons">
+						<label class="btn btn-primary">
+							<input type="radio" name="yesCorres" id="optionsInvolve1" value="yes">Yes
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="noCorres" id="optionsInvolve2" value="no">No
+						</label>
+					</div>
+					</div>
+		        </div>
+
+				<div class="form-group">
+		            <label for="inputCity" class="control-label col-sm-5">Are you an Indian citizen</label>
+		            <div class="col-sm-4">
+		                <select class="form-control">
+		  					<option>Please select..</option>
+							<option>Yes</option>
+		  					<option>No</option>
+						</select>
+		            </div>
+		        </div>
+
+				<div class="form-group">
+		            <label for="inputCity" class="control-label col-sm-5">Have you been associated with Teach For India previously? </label>
+		             <div class="col-sm-4">
+		                <select class="form-control">
+							<option>Please select..</option>
+		  					<option>Yes</option>
+		  					<option>No</option>
+						</select>
+		            </div>
+		        </div>
+
+				<div class="form-group">
+		            <label for="inputCity" class="control-label col-sm-5">Have you applied for the Teach For India Fellowship before ? </label>
+		            <div class="col-sm-4">
+		                <select class="form-control">
+		     				<option>Please select..</option>
+		  					<option>Yes</option>
+		  					<option>No</option>
+						</select>
+		            </div>
+		        </div>
+
+				<div class="form-group">
+		            <label for="inputCity" class="control-label col-sm-5">I understand that Teach For India Fellowship is a two year, full time, paid Fellowship? </label>
+		            <div class="col-sm-4">
+		            	<input type="checkbox" value="true"> Yes
+		            </div>
+		        </div>
+		        
+		        <div class="form-group">
+		            <div class="col-sm-5">
+		                <button type="submit" class="btn btn-primary">Next</button>
+		            </div>
+		        </div>
+		    </form>
+		</div>
+	</body>
+</html>                                 		
